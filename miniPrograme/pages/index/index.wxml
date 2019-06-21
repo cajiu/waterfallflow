@@ -1,0 +1,7 @@
+<image class="imgBox " bindload="imgLoad" wx:for="{{imgList}}" wx:key="{{index}}" mode="widthFix" data-url="{{item}}" data-index="{{index}}" src='{{item}}' ></image>
+<view class='box'>
+    <image class="imgBox" wx:for="{{imgLeft}}" wx:key="{{index}}" mode="widthFix" src='{{item}}'></image>
+</view>
+<view class='box'>
+    <image class="imgBox" wx:for="{{imgRight}}" wx:key="{{index}}" mode="widthFix" src='{{item}}'></image>
+</view>
